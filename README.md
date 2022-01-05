@@ -37,7 +37,7 @@ If you already have a 24-word mnemonic key, you can ignore this part.
     ```bash
     git clone https://github.com/Chia-Network/chia-blockchain.git
     cd chia-blockchain
-    git checkout 7b277e991efdfc20dfb50ac10b0fdefc0903d45d
+    git checkout afcf881d7267768ecedc4c599941c588d18841d2
     ```
 
 2. Install the Chia library.
