@@ -27,7 +27,7 @@ If you already have a 24-word mnemonic key, you can ignore this part.
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
     nvm install --lts
-    sudo apt install libatk1.0-0 libatk-bridge2.0-0 libgdk_pixbuf-2.0 libgtk2.0-0 libgtk-3-0 libgbm1
+    sudo apt -y install npm libatk1.0-0 libatk-bridge2.0-0 libgtk2.0-0 libgtk-3-0 libgbm1
     ```
 
 ## Chia Wallet Offer
@@ -66,9 +66,13 @@ If you already have a 24-word mnemonic key, you can ignore this part.
     ```bash
     sh install-gui.sh
     cd chia-blockchain-gui
+    ```
+    
+5. Start the Chia light wallet!
+    ```
     npm run electron &
     ```
 
-5. Wait until the wallet is synced and then add the `TMJV` token with its asset id `cfa74593a6ad28436815ba1ebc486bf4344e880461c1b2fa550319a9e8479a14`.
+6. Wait until the wallet is synced and then add the `TMJV` token with its asset id `cfa74593a6ad28436815ba1ebc486bf4344e880461c1b2fa550319a9e8479a14`.
 
-6. Follow the instructions on GUI to generate offers.
+7. Follow the instructions on GUI to generate offers.
